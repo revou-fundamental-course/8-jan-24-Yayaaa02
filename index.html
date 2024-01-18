@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <center>
+        <div class="header">
+            <h1> Katik <small>Kalkulator Matematik</small> </h1>
+        </div>
+
+        <div class="container">
+            <div class="intro">
+                <h3> Welcome to Katik <br>
+                    <small>Hai Sobat, Selamat datang di Katik :]
+                        <br> Sebuah web apps sederhana yang berfungsi
+                        untuk menghitung nilau luas dan keliling bangun datar
+                    </small>
+                </h3>
+            </div>
+
+            <main class="main">
+
+                <div class="calculate-container" id="luas">
+                    <h2> HITUNG LUAS PERSEGI</h2>
+                    <img src="./img/square.png" alt="">
+                    <p>Rumus Luas Persegi yaitu:</p>
+                    <p>L = S x S</p>
+                    <input type="number" name="sisi" id="sisi">
+                    <button id="hitung" onclick="CalculateLuas()">Hitung</button>
+                    <div id="output"> HASIL </div>
+                </div>
+
+                <div class="calculate-container" id="keliling">
+                    <h2> HITUNG KELILING PERSEGI</h2>
+                    <img src="./img/square.png" alt="">
+                    <p>Rumus Keliling Persegi yaitu:</p>
+                    <p>K = 4 x S</p>
+                    <input type="number" name="side" id="side">
+                    <button onclick="CalculateKeliling()">Hitung</button>
+                    <div id="result"> HASIL </div>
+                </div>
+            </main>
+        </div>
+    </center>
+</body>
+
+<script src="./js/script.js"></script>
+
+</html>
